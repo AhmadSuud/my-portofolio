@@ -81,7 +81,8 @@ export default function SkillSection() {
           
           {/* Card 1 - Data Engineering & Streaming (Delay 100) */}
           <ScrollReveal delay={100}>
-            <div className="group h-full bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+            <div className="group relative h-full overflow-hidden bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+              <div className="card-accent-bar absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500" />
               <div className="flex items-center gap-2 mb-1">
                 <div className="w-2 h-2 rounded-full bg-blue-500 group-hover:scale-150 group-hover:shadow-[0_0_8px_rgba(59,130,246,0.8)] transition-all duration-300"></div>
                 <h3 className="text-lg font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">Data Engineering & Streaming</h3>
@@ -108,7 +109,8 @@ export default function SkillSection() {
 
           {/* Card 2 - Orchestration & Automation (Delay 200) */}
           <ScrollReveal delay={200}>
-            <div className="group h-full bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+            <div className="group relative h-full overflow-hidden bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+              <div className="card-accent-bar absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500" />
               <div className="flex items-center gap-2 mb-1">
                 <div className="w-2 h-2 rounded-full bg-blue-500 group-hover:scale-150 group-hover:shadow-[0_0_8px_rgba(59,130,246,0.8)] transition-all duration-300"></div>
                 <h3 className="text-lg font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">Orchestration & Automation</h3>
@@ -127,7 +129,8 @@ export default function SkillSection() {
 
           {/* Card 3 - AI, Machine Learning & Agents (Delay 300) */}
           <ScrollReveal delay={300}>
-            <div className="group h-full bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+            <div className="group relative h-full overflow-hidden bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+              <div className="card-accent-bar absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500" />
               <div className="flex items-center gap-2 mb-1">
                 <div className="w-2 h-2 rounded-full bg-blue-500 group-hover:scale-150 group-hover:shadow-[0_0_8px_rgba(59,130,246,0.8)] transition-all duration-300"></div>
                 <h3 className="text-lg font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">AI, LLM & Agents</h3>
@@ -153,7 +156,8 @@ export default function SkillSection() {
 
           {/* Card 4 - Databases & Storage (Delay 400) */}
           <ScrollReveal delay={400}>
-            <div className="group h-full bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+            <div className="group relative h-full overflow-hidden bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+              <div className="card-accent-bar absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500" />
               <div className="flex items-center gap-2 mb-1">
                 <div className="w-2 h-2 rounded-full bg-blue-500 group-hover:scale-150 group-hover:shadow-[0_0_8px_rgba(59,130,246,0.8)] transition-all duration-300"></div>
                 <h3 className="text-lg font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">Databases & Storage</h3>
@@ -176,7 +180,8 @@ export default function SkillSection() {
 
           {/* Card 5 - Dev Tools & Languages (Delay 500) */}
           <ScrollReveal delay={500}>
-            <div className="group h-full bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+            <div className="group relative h-full overflow-hidden bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+              <div className="card-accent-bar absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500" />
               <div className="flex items-center gap-2 mb-1">
                 <div className="w-2 h-2 rounded-full bg-blue-500 group-hover:scale-150 group-hover:shadow-[0_0_8px_rgba(59,130,246,0.8)] transition-all duration-300"></div>
                 <h3 className="text-lg font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">Dev Tools & Languages</h3>
@@ -203,7 +208,8 @@ export default function SkillSection() {
 
           {/* Card 6 - Infra, DevOps & Observability (Delay 600) */}
           <ScrollReveal delay={600}>
-            <div className="group h-full bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+            <div className="group relative h-full overflow-hidden bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+              <div className="card-accent-bar absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500" />
               <div className="flex items-center gap-2 mb-1">
                 <div className="w-2 h-2 rounded-full bg-blue-500 group-hover:scale-150 group-hover:shadow-[0_0_8px_rgba(59,130,246,0.8)] transition-all duration-300"></div>
                 <h3 className="text-lg font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">Infra & Observability</h3>

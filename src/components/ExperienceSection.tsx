@@ -1,6 +1,6 @@
 import { Briefcase, Check, Info, Server } from "lucide-react";
 import Image from "next/image";
-import ScrollReveal from "./ScrollReveal"; // Import ScrollReveal
+import ScrollReveal from "./ScrollReveal"; 
 
 import {
   RedHat,
@@ -78,7 +78,9 @@ export default function ExperienceSection() {
         {/* Timeline Container */}
         <div className="relative py-4 w-full">
 
-          <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-0.5 bg-gray-200 dark:bg-slate-800 -translate-x-1/2 z-0" />
+          <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-200 via-indigo-200 to-purple-200 dark:from-blue-900/60 dark:via-indigo-900/60 dark:to-purple-900/60 -translate-x-1/2 z-0 overflow-hidden">
+            <div className="absolute left-0 top-0 w-full h-24 bg-gradient-to-b from-transparent via-blue-400 dark:via-blue-400 to-transparent animate-timeline-flow" />
+          </div>
           <ScrollReveal delay={300}>
             <div className="relative flex justify-end w-full group cursor-default mb-16 md:mb-20">
 

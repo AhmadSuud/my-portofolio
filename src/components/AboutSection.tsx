@@ -5,9 +5,13 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="py-24 bg-gray-50 dark:bg-[#111827] transition-colors duration-300 overflow-hidden"
+      className="relative py-24 bg-gray-50 dark:bg-[#111827] transition-colors duration-300 overflow-hidden"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Subtle floating orbs — echoes Hero's atmosphere */}
+      <div className="absolute top-10 -left-20 w-[350px] h-[350px] bg-blue-400/5 dark:bg-blue-500/5 blur-[100px] rounded-full pointer-events-none animate-float-slow"></div>
+      <div className="absolute bottom-10 -right-20 w-[350px] h-[350px] bg-purple-400/5 dark:bg-purple-500/5 blur-[100px] rounded-full pointer-events-none animate-float-slow-reverse"></div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <ScrollReveal delay={100}>

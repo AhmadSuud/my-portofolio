@@ -51,7 +51,7 @@ export default function Footer() {
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8 w-full sm:w-auto">
               <a 
                 href="mailto:asuud2904@gmail.com" 
-                className="group flex items-center justify-center gap-3 px-6 py-3 bg-slate-800/80 border border-slate-700 rounded-2xl hover:border-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:-translate-y-1 transition-all duration-300"
+                className="btn-shine group relative overflow-hidden flex items-center justify-center gap-3 px-6 py-3 bg-slate-800/80 border border-slate-700 rounded-2xl hover:border-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:-translate-y-1 transition-all duration-300"
               >
                 <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-900/30 text-blue-400 group-hover:scale-110 transition-transform">
                   <Mail size={16} />
