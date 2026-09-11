@@ -172,7 +172,7 @@ export default function ExperienceSection() {
                     <div className="flex items-center gap-4 flex-wrap">
                       <div className="flex-shrink-0 flex items-center justify-center bg-white rounded-full p-1.5 border border-gray-200 dark:border-slate-600 shadow-sm w-12 h-12">
                         <Image 
-                          src="/logos/pegadaian.png" 
+                          src="/logos/Pegadaian.png" 
                           alt="Pegadaian Logo" 
                           width={36} 
                           height={36} 
