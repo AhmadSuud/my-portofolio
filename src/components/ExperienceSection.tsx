@@ -1,6 +1,9 @@
+"use client";
+
 import { Briefcase, Check, Info, Server } from "lucide-react";
 import Image from "next/image";
 import ScrollReveal from "./ScrollReveal"; 
+import React from "react";
 
 import {
   RedHat,
@@ -32,7 +35,6 @@ export default function ExperienceSection() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {/* Section Header */}
         <ScrollReveal delay={100}>
           <div className="flex justify-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-400 font-semibold text-sm transition-colors duration-300">
@@ -42,7 +44,6 @@ export default function ExperienceSection() {
           </div>
         </ScrollReveal>
 
-        {/* Company Header */}
         <ScrollReveal delay={200}>
           <div className="flex flex-col items-center text-center gap-5 mb-20">
             <div className="flex-shrink-0 w-20 h-20 md:w-24 md:h-24 bg-[#0f172a] dark:bg-slate-800 rounded-2xl flex items-center justify-center shadow-xl border border-slate-800 dark:border-slate-700/50 p-4 overflow-hidden transition-colors duration-300">
@@ -54,18 +55,15 @@ export default function ExperienceSection() {
                 className="object-contain w-full h-full"
               />
             </div>
-
             <div>
               <div className="flex flex-wrap items-center justify-center gap-3 mb-3">
                 <h3 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white">
                   PT Sibernetik Integra Data
                 </h3>
-
                 <span className="px-3 py-1 bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-gray-300 text-xs font-semibold rounded-full border border-gray-200 dark:border-slate-700">
                   Organization
                 </span>
               </div>
-
               <p className="text-gray-600 dark:text-gray-400 font-medium text-sm md:text-base">
                 Data Engineer • Backend Engineer • AI Engineer
                 <span className="mx-3 text-gray-300 dark:text-gray-600">|</span>
@@ -75,23 +73,24 @@ export default function ExperienceSection() {
           </div>
         </ScrollReveal>
 
-        {/* Timeline Container */}
         <div className="relative py-4 w-full">
-
           <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-200 via-indigo-200 to-purple-200 dark:from-blue-900/60 dark:via-indigo-900/60 dark:to-purple-900/60 -translate-x-1/2 z-0 overflow-hidden">
             <div className="absolute left-0 top-0 w-full h-24 bg-gradient-to-b from-transparent via-blue-400 dark:via-blue-400 to-transparent animate-timeline-flow" />
           </div>
           
+          {/* Experience 1: KLHK */}
           <ScrollReveal delay={300}>
-            <div className="relative flex justify-end w-full group cursor-default mb-16 md:mb-20">
-
-              <div className="absolute left-6 md:left-1/2 top-10 md:top-1/2 md:-translate-y-1/2 w-4 h-4 rounded-full bg-gray-200 dark:bg-slate-700 border-4 border-white dark:border-[#0f172a] group-hover:bg-blue-500 group-hover:scale-150 group-hover:shadow-[0_0_8px_rgba(59,130,246,0.8)] transition-all duration-300 -translate-x-1/2 z-10" />
+            <div 
+              tabIndex={0}
+              onTouchStart={() => {}}
+              className="relative flex justify-end w-full group cursor-pointer mb-16 md:mb-20 outline-none transition-transform duration-300 active:scale-[0.99]"
+            >
+              <div className="absolute left-6 md:left-1/2 top-10 md:top-1/2 md:-translate-y-1/2 w-4 h-4 rounded-full bg-gray-200 dark:bg-slate-700 border-4 border-white dark:border-[#0f172a] group-hover:bg-blue-500 group-focus:bg-blue-500 group-hover:scale-150 group-focus:scale-150 group-hover:shadow-[0_0_8px_rgba(59,130,246,0.8)] group-focus:shadow-[0_0_8px_rgba(59,130,246,0.8)] transition-all duration-300 -translate-x-1/2 z-10" />
 
               <div className="w-full pl-16 md:pl-12 lg:pl-16 md:w-1/2">
-                <div className="relative overflow-hidden bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl md:rounded-3xl border border-gray-100 dark:border-slate-700/50 shadow-sm group-hover:shadow-xl group-hover:border-blue-200 dark:group-hover:border-blue-500/50 group-hover:-translate-y-1.5 transition-all duration-300">
+                <div className="relative overflow-hidden bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl md:rounded-3xl border border-gray-100 dark:border-slate-700/50 shadow-sm group-hover:shadow-xl group-focus:shadow-xl group-hover:border-blue-200 group-focus:border-blue-200 dark:group-hover:border-blue-500/50 dark:group-focus:border-blue-500/50 group-hover:-translate-y-1.5 group-focus:-translate-y-1.5 transition-all duration-300">
 
-                  {/* ACCENT BAR: Animasi dari Kiri ke Kanan saat Hover */}
-                  <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-blue-400 to-blue-600 origin-left transform scale-x-0 opacity-0 group-hover:scale-x-100 group-hover:opacity-100 transition-all duration-500 ease-out" />
+                  <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-blue-400 to-blue-600 origin-left transform scale-x-0 opacity-0 group-hover:scale-x-100 group-hover:opacity-100 group-focus:scale-x-100 group-focus:opacity-100 transition-all duration-500 ease-out" />
 
                   <div className="flex flex-col xl:flex-row xl:items-center justify-between gap-4 mb-5">
                     <div className="flex items-center gap-4 flex-wrap">
@@ -119,7 +118,7 @@ export default function ExperienceSection() {
                     </span>
                   </div>
 
-                  <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
+                  <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-blue-600 group-focus:text-blue-600 dark:group-hover:text-blue-400 dark:group-focus:text-blue-400 transition-colors duration-300">
                     PIC Backend & AI Engineer
                   </h4>
 
@@ -134,10 +133,7 @@ export default function ExperienceSection() {
                       "Implemented AI services to enhance document processing, including automated classification and data extraction.",
                       "Managed PostgreSQL databases to ensure reliable data storage and retrieval for PRISM's operations.",
                     ].map((item, i) => (
-                      <li
-                        key={i}
-                        className="flex gap-3 text-sm text-gray-600 dark:text-gray-300 leading-relaxed"
-                      >
+                      <li key={i} className="flex gap-3 text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
                         <Check size={18} className="text-blue-500 flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
@@ -163,19 +159,19 @@ export default function ExperienceSection() {
             </div>
           </ScrollReveal>
 
-          {/* =========================================================
-              Experience 2: Pegadaian
-          ========================================================== */}
+          {/* Experience 2: Pegadaian */}
           <ScrollReveal delay={400}>
-            <div className="relative flex justify-start w-full group cursor-default">
-
-              <div className="absolute left-6 md:left-1/2 top-10 md:top-1/2 md:-translate-y-1/2 w-4 h-4 rounded-full bg-gray-200 dark:bg-slate-700 border-4 border-white dark:border-[#0f172a] group-hover:bg-indigo-500 group-hover:scale-150 group-hover:shadow-[0_0_8px_rgba(99,102,241,0.8)] transition-all duration-300 -translate-x-1/2 z-10" />
+            <div 
+              tabIndex={0}
+              onTouchStart={() => {}}
+              className="relative flex justify-start w-full group cursor-pointer outline-none transition-transform duration-300 active:scale-[0.99]"
+            >
+              <div className="absolute left-6 md:left-1/2 top-10 md:top-1/2 md:-translate-y-1/2 w-4 h-4 rounded-full bg-gray-200 dark:bg-slate-700 border-4 border-white dark:border-[#0f172a] group-hover:bg-indigo-500 group-focus:bg-indigo-500 group-hover:scale-150 group-focus:scale-150 group-hover:shadow-[0_0_8px_rgba(99,102,241,0.8)] group-focus:shadow-[0_0_8px_rgba(99,102,241,0.8)] transition-all duration-300 -translate-x-1/2 z-10" />
 
               <div className="w-full pl-16 md:pl-0 md:pr-12 lg:pr-16 md:w-1/2">
-                <div className="relative overflow-hidden bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl md:rounded-3xl border border-gray-100 dark:border-slate-700/50 shadow-sm group-hover:shadow-xl group-hover:border-indigo-200 dark:group-hover:border-indigo-500/50 group-hover:-translate-y-1.5 transition-all duration-300">
+                <div className="relative overflow-hidden bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-2xl md:rounded-3xl border border-gray-100 dark:border-slate-700/50 shadow-sm group-hover:shadow-xl group-focus:shadow-xl group-hover:border-indigo-200 group-focus:border-indigo-200 dark:group-hover:border-indigo-500/50 dark:group-focus:border-indigo-500/50 group-hover:-translate-y-1.5 group-focus:-translate-y-1.5 transition-all duration-300">
 
-                  {/* ACCENT BAR: Animasi dari Kiri ke Kanan saat Hover */}
-                  <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-indigo-400 to-purple-600 origin-left transform scale-x-0 opacity-0 group-hover:scale-x-100 group-hover:opacity-100 transition-all duration-500 ease-out" />
+                  <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-indigo-400 to-purple-600 origin-left transform scale-x-0 opacity-0 group-hover:scale-x-100 group-hover:opacity-100 group-focus:scale-x-100 group-focus:opacity-100 transition-all duration-500 ease-out" />
 
                   <div className="flex flex-col xl:flex-row xl:items-center justify-between gap-4 mb-5">
                     <div className="flex items-center gap-4 flex-wrap">
@@ -203,7 +199,7 @@ export default function ExperienceSection() {
                     </span>
                   </div>
 
-                  <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-300">
+                  <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-indigo-600 group-focus:text-indigo-600 dark:group-hover:text-indigo-400 dark:group-focus:text-indigo-400 transition-colors duration-300">
                     PIC Data Engineer
                   </h4>
 
@@ -219,10 +215,7 @@ export default function ExperienceSection() {
                       "Monitored continuous mission-critical financial events using Confluent Control Center for real-time cluster health telemetry.",
                       "Administered secure remote server management via SSH (PuTTY), checked service statuses directly on the server, and meticulously documented monitoring results using spreadsheets.",
                     ].map((item, i) => (
-                      <li
-                        key={i}
-                        className="flex gap-3 text-sm text-gray-600 dark:text-gray-300 leading-relaxed"
-                      >
+                      <li key={i} className="flex gap-3 text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
                         <Check size={18} className="text-indigo-500 flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
