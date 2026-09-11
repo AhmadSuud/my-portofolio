@@ -40,7 +40,7 @@ export default function HeroSection() {
           <span className="hidden sm:inline text-gray-300 dark:text-gray-700">•</span>
           <span className="group flex items-center gap-1.5 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-default">
             <Code2 size={18} className="text-indigo-500 group-hover:scale-110 group-hover:drop-shadow-[0_0_8px_rgba(99,102,241,0.6)] transition-all" /> 
-            Backend & Frontend
+            Backend Engineer
           </span>
           <span className="hidden sm:inline text-gray-300 dark:text-gray-700">•</span>
           <span className="group flex items-center gap-1.5 hover:text-purple-600 dark:hover:text-purple-400 transition-colors cursor-default">
