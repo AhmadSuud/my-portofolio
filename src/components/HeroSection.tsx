@@ -51,7 +51,7 @@ export default function HeroSection() {
 
         {/* Description */}
         <p className="animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500 max-w-2xl text-lg md:text-xl text-gray-500 dark:text-gray-400 leading-relaxed transition-colors duration-300">
-          Specializing in high-performance data platforms, resilient microservices, and applied AI systems — from mission-critical Spark & Kafka pipelines to production-ready LLMs and modern Next.js interfaces.
+          Building scalable data platforms, real-time streaming pipelines, and applied AI solutions from production grade Confluent Kafka and Apache Spark systems to LLM-powered applications.
         </p>
 
         {/* Action Buttons */}
