@@ -120,7 +120,7 @@ export default function ProjectsSection() {
                   <AnimatedPipelineCanvas 
                     groups={[
                       { items: [{ label: "API / Data", icon: <Fastapi width={14} height={14} /> }] },
-                      { items: [{ label: "Confluent Kafka", icon: <Kafka width={14} height={14} /> }] },
+                      { items: [{ label: "Kafka", icon: <Kafka width={14} height={14} /> }] },
                       { items: [{ label: "Notif Engine", icon: <Python width={14} height={14} /> }] },
                       { items: [{ label: "Topics", icon: <Kafka width={14} height={14} /> }] },
                       { items: [{ label: "Broadcaster", icon: <Python width={14} height={14} /> }] },

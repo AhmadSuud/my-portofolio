@@ -50,9 +50,12 @@ export default function AboutSection() {
             {/* Card 1: Data Engineer */}
             <ScrollReveal delay={300}>
               <div className="group flex gap-5 p-6 bg-white dark:bg-slate-800/40 border border-gray-100 dark:border-slate-700/50 shadow-sm rounded-2xl hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
-                <div className="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-xl shadow-md group-hover:scale-110 group-hover:shadow-[0_0_15px_rgba(37,99,235,0.5)] transition-all duration-300">
+                
+                {/* ICON BOX: Glassmorphism effect */}
+                <div className="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-blue-50 dark:bg-blue-500/10 text-blue-600 dark:text-blue-400 border border-blue-100 dark:border-blue-500/20 rounded-xl group-hover:scale-110 group-hover:bg-blue-500 group-hover:text-white group-hover:shadow-[0_0_15px_rgba(59,130,246,0.5)] transition-all duration-300">
                   <Database size={24} />
                 </div>
+
                 <div className="space-y-1">
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
                     Data Engineer & Streaming
@@ -66,12 +69,15 @@ export default function AboutSection() {
 
             {/* Card 2: Backend Dev */}
             <ScrollReveal delay={400}>
-              <div className="group flex gap-5 p-6 bg-white dark:bg-slate-800/40 border border-gray-100 dark:border-slate-700/50 shadow-sm rounded-2xl hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
-                <div className="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-xl shadow-md group-hover:scale-110 group-hover:shadow-[0_0_15px_rgba(37,99,235,0.5)] transition-all duration-300">
+              <div className="group flex gap-5 p-6 bg-white dark:bg-slate-800/40 border border-gray-100 dark:border-slate-700/50 shadow-sm rounded-2xl hover:shadow-xl hover:border-indigo-200 dark:hover:border-indigo-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+                
+                {/* ICON BOX: Glassmorphism effect Indigo */}
+                <div className="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-indigo-50 dark:bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-500/20 rounded-xl group-hover:scale-110 group-hover:bg-indigo-500 group-hover:text-white group-hover:shadow-[0_0_15px_rgba(99,102,241,0.5)] transition-all duration-300">
                   <Code2 size={24} />
                 </div>
+
                 <div className="space-y-1">
-                  <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
+                  <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-300">
                     Backend Dev & Microservices
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed pt-1 transition-colors duration-300">
@@ -83,12 +89,15 @@ export default function AboutSection() {
 
             {/* Card 3: AI Engineer */}
             <ScrollReveal delay={500}>
-              <div className="group flex gap-5 p-6 bg-white dark:bg-slate-800/40 border border-gray-100 dark:border-slate-700/50 shadow-sm rounded-2xl hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
-                <div className="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-xl shadow-md group-hover:scale-110 group-hover:shadow-[0_0_15px_rgba(37,99,235,0.5)] transition-all duration-300">
+              <div className="group flex gap-5 p-6 bg-white dark:bg-slate-800/40 border border-gray-100 dark:border-slate-700/50 shadow-sm rounded-2xl hover:shadow-xl hover:border-purple-200 dark:hover:border-purple-500/50 hover:-translate-y-1.5 transition-all duration-300 cursor-default">
+                
+                {/* ICON BOX: Glassmorphism effect Purple */}
+                <div className="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-purple-50 dark:bg-purple-500/10 text-purple-600 dark:text-purple-400 border border-purple-100 dark:border-purple-500/20 rounded-xl group-hover:scale-110 group-hover:bg-purple-500 group-hover:text-white group-hover:shadow-[0_0_15px_rgba(168,85,247,0.5)] transition-all duration-300">
                   <Sparkles size={24} />
                 </div>
+
                 <div className="space-y-1">
-                  <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
+                  <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors duration-300">
                     AI Engineer & Agentic Systems
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed pt-1 transition-colors duration-300">

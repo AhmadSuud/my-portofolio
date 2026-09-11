@@ -7,11 +7,12 @@ export default function HeroSection() {
       id="home" 
       className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-white dark:bg-[#0f172a] transition-colors duration-300"
     >
-      {/* Background Grid Pattern */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:24px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
+      {/* Background Dot Matrix Pattern (Bukan Grid) */}
+      <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] dark:bg-[radial-gradient(#1e293b_1px,transparent_1px)] bg-[size:24px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
 
-      {/* Decorative Blur Orbs (Ambient Glow) */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-blue-500/10 dark:bg-blue-500/5 blur-[120px] rounded-full pointer-events-none transition-colors duration-700"></div>
+      {/* Decorative Blur Orbs Asimetris */}
+      <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-blue-400/10 dark:bg-blue-500/10 blur-[120px] rounded-full pointer-events-none transition-colors duration-700"></div>
+      <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-indigo-400/10 dark:bg-indigo-500/10 blur-[120px] rounded-full pointer-events-none transition-colors duration-700"></div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center space-y-8">
         
@@ -24,9 +25,9 @@ export default function HeroSection() {
           <span className="text-sm font-medium text-gray-700 dark:text-gray-300">Available for High-Impact Engineering Roles</span>
         </div>
 
-        {/* Name Title */}
+        {/* Name Title dengan Teks Transparan bergradien */}
         <div className="relative">
-          <h1 className="animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-150 text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-slate-900 dark:text-white transition-colors duration-300 drop-shadow-sm">
+          <h1 className="animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-150 text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-br from-slate-900 to-slate-600 dark:from-white dark:to-slate-300 transition-colors duration-300 drop-shadow-sm pb-2">
             Ahmad Su`ud
           </h1>
         </div>
@@ -37,12 +38,12 @@ export default function HeroSection() {
             <Database size={18} className="text-blue-500 group-hover:scale-110 group-hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.6)] transition-all" /> 
             Data Engineer
           </span>
-          <span className="hidden sm:inline text-gray-300 dark:text-gray-700">•</span>
+          <span className="hidden sm:inline text-gray-300 dark:text-slate-700">•</span>
           <span className="group flex items-center gap-1.5 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-default">
             <Code2 size={18} className="text-indigo-500 group-hover:scale-110 group-hover:drop-shadow-[0_0_8px_rgba(99,102,241,0.6)] transition-all" /> 
             Backend Engineer
           </span>
-          <span className="hidden sm:inline text-gray-300 dark:text-gray-700">•</span>
+          <span className="hidden sm:inline text-gray-300 dark:text-slate-700">•</span>
           <span className="group flex items-center gap-1.5 hover:text-purple-600 dark:hover:text-purple-400 transition-colors cursor-default">
             <Sparkles size={18} className="text-purple-500 group-hover:scale-110 group-hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.6)] transition-all" /> 
             AI Engineer

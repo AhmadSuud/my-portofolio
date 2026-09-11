@@ -67,7 +67,7 @@ export default function ExperienceSection() {
               </div>
 
               <p className="text-gray-600 dark:text-gray-400 font-medium text-sm md:text-base">
-                Data Engineer • Backend Dev • AI Engineer
+                Data Engineer • Backend Engineer • AI Engineer
                 <span className="mx-3 text-gray-300 dark:text-gray-600">|</span>
                 Full-time
               </p>
