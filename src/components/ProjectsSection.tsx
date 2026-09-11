@@ -74,10 +74,14 @@ export default function ProjectsSection() {
         <div className="flex flex-col gap-12">
           
           {/* =========================================
-              Project 01: Notification Engine
+              Project 01: Notification Engine (BLUE)
           ========================================== */}
           <ScrollReveal delay={200}>
-            <div className="group bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-3xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 transition-all duration-300">
+            <div className="group relative overflow-hidden bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-3xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 hover:-translate-y-1.5 transition-all duration-300">
+              
+              {/* ACCENT BAR: Animasi dari Kiri ke Kanan saat Hover */}
+              <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-blue-400 to-blue-600 origin-left transform scale-x-0 opacity-0 group-hover:scale-x-100 group-hover:opacity-100 transition-all duration-500 ease-out" />
+              
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
                 
                 <div className="lg:col-span-5 xl:col-span-6 flex flex-col justify-center">
@@ -88,13 +92,9 @@ export default function ProjectsSection() {
                     <span className="flex items-center gap-1.5 text-xs font-bold text-slate-700 dark:text-slate-300">
                       <Activity size={14} className="text-blue-500" /> Notifications
                     </span>
-                    {/* <span className="flex items-center gap-1.5 px-3 py-1 bg-blue-50/50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 text-xs font-semibold rounded-full border border-blue-100 dark:border-blue-800/30">
-                      <div className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
-                      Production
-                    </span> */}
                   </div>
 
-                  <h3 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-2">
+                  <h3 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
                     Event-Driven Multi-Channel Notification Engine
                   </h3>
                   <p className="text-blue-600 dark:text-blue-400 text-sm font-semibold mb-5">
@@ -141,30 +141,30 @@ export default function ProjectsSection() {
           </ScrollReveal>
 
           {/* =========================================
-              Project 02: Real-Time Banking Risk
+              Project 02: Real-Time Banking Risk (PURPLE)
           ========================================== */}
           <ScrollReveal delay={300}>
-            <div className="group bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-3xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 transition-all duration-300">
+            <div className="group relative overflow-hidden bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-3xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-purple-200 dark:hover:border-purple-500/50 hover:-translate-y-1.5 transition-all duration-300">
+              
+              {/* ACCENT BAR: Animasi dari Kiri ke Kanan saat Hover */}
+              <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-purple-400 to-purple-600 origin-left transform scale-x-0 opacity-0 group-hover:scale-x-100 group-hover:opacity-100 transition-all duration-500 ease-out" />
+              
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
                 
                 <div className="lg:col-span-5 xl:col-span-6 flex flex-col justify-center">
                   <div className="flex flex-wrap items-center gap-3 mb-5">
-                    <span className="px-2.5 py-1 bg-blue-50 dark:bg-blue-900/40 text-blue-700 dark:text-blue-400 text-xs font-bold rounded-lg border border-blue-100 dark:border-blue-800/50">
+                    <span className="px-2.5 py-1 bg-purple-50 dark:bg-purple-900/40 text-purple-700 dark:text-purple-400 text-xs font-bold rounded-lg border border-purple-100 dark:border-purple-800/50">
                       02
                     </span>
                     <span className="flex items-center gap-1.5 text-xs font-bold text-slate-700 dark:text-slate-300">
-                      <Zap size={14} className="text-blue-500" /> Banking & LLM
+                      <Zap size={14} className="text-purple-500" /> Banking & LLM
                     </span>
-                    {/* <span className="flex items-center gap-1.5 px-3 py-1 bg-purple-50/50 dark:bg-purple-900/20 text-purple-600 dark:text-purple-400 text-xs font-semibold rounded-full border border-purple-100 dark:border-purple-800/30">
-                      <div className="w-1.5 h-1.5 rounded-full bg-purple-500 animate-pulse" />
-                      Live Demo
-                    </span> */}
                   </div>
 
-                  <h3 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-2">
+                  <h3 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-2 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors duration-300">
                     Real-Time Banking Risk Monitoring
                   </h3>
-                  <p className="text-blue-600 dark:text-blue-400 text-sm font-semibold mb-5">
+                  <p className="text-purple-600 dark:text-purple-400 text-sm font-semibold mb-5">
                     High-Throughput Streaming & AI Integration
                   </p>
 
@@ -200,30 +200,30 @@ export default function ProjectsSection() {
           </ScrollReveal>
 
           {/* =========================================
-              Project 03: Bidirectional DB Sync
+              Project 03: Bidirectional DB Sync (EMERALD)
           ========================================== */}
           <ScrollReveal delay={400}>
-            <div className="group bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-3xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-500/50 transition-all duration-300">
+            <div className="group relative overflow-hidden bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-3xl border border-gray-100 dark:border-slate-700/50 shadow-sm hover:shadow-xl hover:border-emerald-200 dark:hover:border-emerald-500/50 hover:-translate-y-1.5 transition-all duration-300">
+              
+              {/* ACCENT BAR: Animasi dari Kiri ke Kanan saat Hover */}
+              <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-emerald-400 to-emerald-600 origin-left transform scale-x-0 opacity-0 group-hover:scale-x-100 group-hover:opacity-100 transition-all duration-500 ease-out" />
+              
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
                 
                 <div className="lg:col-span-5 xl:col-span-6 flex flex-col justify-center">
                   <div className="flex flex-wrap items-center gap-3 mb-5">
-                    <span className="px-2.5 py-1 bg-blue-50 dark:bg-blue-900/40 text-blue-700 dark:text-blue-400 text-xs font-bold rounded-lg border border-blue-100 dark:border-blue-800/50">
+                    <span className="px-2.5 py-1 bg-emerald-50 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-400 text-xs font-bold rounded-lg border border-emerald-100 dark:border-emerald-800/50">
                       03
                     </span>
                     <span className="flex items-center gap-1.5 text-xs font-bold text-slate-700 dark:text-slate-300">
-                      <Activity size={14} className="text-blue-500" /> DB Sync
+                      <Activity size={14} className="text-emerald-500" /> DB Sync
                     </span>
-                    {/* <span className="flex items-center gap-1.5 px-3 py-1 bg-emerald-50/50 dark:bg-emerald-900/20 text-emerald-600 dark:text-emerald-400 text-xs font-semibold rounded-full border border-emerald-100 dark:border-emerald-800/30">
-                      <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                      Replication
-                    </span> */}
                   </div>
 
-                  <h3 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-2">
+                  <h3 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-2 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors duration-300">
                     Bidirectional Database Synchronization
                   </h3>
-                  <p className="text-blue-600 dark:text-blue-400 text-sm font-semibold mb-5">
+                  <p className="text-emerald-600 dark:text-emerald-400 text-sm font-semibold mb-5">
                     Heterogeneous Database Engineering
                   </p>
 
